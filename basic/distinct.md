@@ -12,5 +12,5 @@ description: 用途：排除篩選欄位中，重複的值
 SELECT DISTINCT(USER_ID) FROM GAME_LOG;
 ```
 
-![](../.gitbook/assets/image%20%282%29.png)
+![](../.gitbook/assets/image%20%283%29.png)
 

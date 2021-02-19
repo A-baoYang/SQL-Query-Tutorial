@@ -12,4 +12,7 @@
 * [SELECT](basic/select.md)
 * [DISTINCT](basic/distinct.md)
 * [WHERE](basic/untitled.md)
+* [AND / OR](basic/and-or.md)
+* [BETWEEN \_ AND \_](basic/between-_-and-_.md)
+* [Untitled](basic/untitled-1.md)
 
