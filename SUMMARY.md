@@ -14,5 +14,23 @@
 * [WHERE](basic/untitled.md)
 * [AND / OR](basic/and-or.md)
 * [BETWEEN \_ AND \_](basic/between-_-and-_.md)
-* [Untitled](basic/untitled-1.md)
+* [GROUP BY with HAVING](basic/untitled-1.md)
+
+## Functions <a id="aggregate"></a>
+
+* [Aggregate: GROUP BY](aggregate/aggregate-group-by.md)
+* [Conditions: CASE](aggregate/conditions-case.md)
+* [Arithmetic in SQL query](aggregate/arithmetic-in-sql-query.md)
+
+## Sorting
+
+* [ORDER BY](sorting/order-by.md)
+
+## Join Tables
+
+* [INNER JOIN](join-tables/inner-join.md)
+* [LEFT JOIN](join-tables/left-join.md)
+* [RIGHT JOIN](join-tables/right-join.md)
+* [FULL JOIN](join-tables/full-join.md)
+* [UNION / UNION ALL](join-tables/union-union-all.md)
 

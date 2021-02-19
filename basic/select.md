@@ -12,7 +12,7 @@ description: 用途：篩選資料表中特定欄位
 SELECT * FROM GAME_LOG;
 ```
 
-![](../.gitbook/assets/image%20%288%29.png)
+![](../.gitbook/assets/image%20%2820%29.png)
 
 
 
@@ -22,5 +22,5 @@ SELECT * FROM GAME_LOG;
 SELECT USER_ID, SCORE FROM GAME_LOG;
 ```
 
-![](../.gitbook/assets/image%20%281%29.png)
+![](../.gitbook/assets/image%20%282%29.png)
 

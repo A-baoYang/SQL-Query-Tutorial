@@ -14,7 +14,7 @@ WHERE SCORE > 90000
     AND USER_ID LIKE '_w%';
 ```
 
-![](../.gitbook/assets/image%20%286%29.png)
+![](../.gitbook/assets/image%20%2816%29.png)
 
 
 
@@ -26,7 +26,7 @@ WHERE SCORE > 60000
     AND (USER_ID LIKE '_w%' OR ID IN (1, 3, 4, 8, 10));
 ```
 
-![](../.gitbook/assets/image%20%2810%29.png)
+![](../.gitbook/assets/image%20%2828%29.png)
 
 
 
