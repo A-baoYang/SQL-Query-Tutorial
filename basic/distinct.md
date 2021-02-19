@@ -9,7 +9,7 @@ description: 用途：排除篩選欄位中，重複的值
 \(1\)　選取不重複用戶
 
 ```sql
-SELECT DISTINCT(USER_ID) FROM GAME_LOG
+SELECT DISTINCT(USER_ID) FROM GAME_LOG;
 ```
 
 ![](../.gitbook/assets/image%20%282%29.png)
