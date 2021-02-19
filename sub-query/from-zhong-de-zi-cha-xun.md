@@ -1,0 +1,34 @@
+---
+description: 用途：透過另一段 SQL query 產生資料表，置於 `FROM` 之後、`WHERE` 之前，目的為透過 2 資料表運算產生新欄位
+---
+
+# FROM 中的子查詢
+
+語法示範：
+
+```sql
+SELECT PI.USER_ID, PI.PURCHASE_COUNT, PI.AVG_DAMAGE, 
+        PI.TOTAL_SPENT, G.SCORE_SUM
+FROM 
+(
+    SELECT USER_ID, AVG(DAMAGE) AS AVG_DAMAGE, SUM(PRICE) AS TOTAL_SPENT, 
+        CASE WHEN COUNT(ITEM) IS NULL THEN 0 
+            ELSE COUNT(ITEM) END AS PURCHASE_COUNT
+    FROM PURCHASE_LOG
+    LEFT JOIN ITEM_INFO
+        USING(ITEM)
+    GROUP BY USER_ID
+) PI,
+
+(
+    SELECT USER_ID, 
+        CASE WHEN SUM(SCORE) IS NULL THEN 0
+            ELSE SUM(SCORE) END AS SCORE_SUM
+    FROM GAME_LOG
+    GROUP BY USER_ID
+) G
+WHERE PI.USER_ID = G.USER_ID
+```
+
+![](../.gitbook/assets/image%20%2832%29.png)
+
