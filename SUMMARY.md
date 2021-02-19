@@ -11,4 +11,5 @@
 
 * [SELECT](basic/select.md)
 * [DISTINCT](basic/distinct.md)
+* [Untitled](basic/untitled.md)
 
