@@ -1,0 +1,39 @@
+---
+description: 用途：對資料列進行排序
+---
+
+# Ranking:
+
+語法示範：
+
+\(1\)　`RANK()`
+
+```sql
+SELECT P.USER_ID, P.DATETIME, P.ITEM, I.DAMAGE, I.PRICE
+FROM PURCHASE_LOG P
+INNER JOIN ITEM_INFO I
+    ON P.ITEM = I.ITEM;
+```
+
+
+
+\(2\)　`DENSE_RANK()`
+
+```sql
+SELECT P.USER_ID, P.DATETIME, P.ITEM, I.DAMAGE, I.PRICE
+FROM PURCHASE_LOG P
+INNER JOIN ITEM_INFO I
+    ON P.ITEM = I.ITEM;
+```
+
+
+
+\(3\)　`ROW_NUMBER()`
+
+```sql
+SELECT P.USER_ID, P.DATETIME, P.ITEM, I.DAMAGE, I.PRICE
+FROM PURCHASE_LOG P
+INNER JOIN ITEM_INFO I
+    ON P.ITEM = I.ITEM;
+```
+

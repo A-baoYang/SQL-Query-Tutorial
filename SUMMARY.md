@@ -22,9 +22,10 @@
 * [Conditions: CASE](functions/conditions-case.md)
 * [Arithmetic in SQL query](functions/arithmetic-in-sql-query.md)
 
-## Sorting
+## Sorting & Ranking
 
-* [ORDER BY](sorting/order-by.md)
+* [ORDER BY](sorting-and-ranking/order-by.md)
+* [Ranking:](sorting-and-ranking/ranking.md)
 
 ## Merge Tables
 
@@ -41,4 +42,5 @@
 
 * [WHERE 中的子查詢](sub-query/where-zhong-de-zi-cha-xun.md)
 * [FROM 中的子查詢](sub-query/from-zhong-de-zi-cha-xun.md)
+* [SELECT 中的子查詢](sub-query/select-zhong-de-zi-cha-xun.md)
 
