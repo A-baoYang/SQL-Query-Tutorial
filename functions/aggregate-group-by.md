@@ -13,7 +13,7 @@ SELECT SUM(SCORE) AS SCORE_SUM
 FROM GAME_LOG;
 ```
 
-![](../.gitbook/assets/image%20%2838%29.png)
+![](../.gitbook/assets/image%20%2839%29.png)
 
 ```sql
 SELECT USER_ID, SUM(SCORE) AS SCORE_SUM
@@ -21,7 +21,7 @@ FROM GAME_LOG
 GROUP BY USER_ID;
 ```
 
-![](../.gitbook/assets/image%20%2840%29.png)
+![](../.gitbook/assets/image%20%2841%29.png)
 
 
 
