@@ -34,9 +34,9 @@
 * [RIGHT JOIN](merge-tables/right-join.md)
 * [FULL JOIN](merge-tables/full-join.md)
 * [UNION / UNION ALL](merge-tables/union-union-all.md)
-* [UNION](merge-tables/union.md)
 * [INTERSECT](merge-tables/intersect.md)
 * [EXCEPT](merge-tables/except.md)
+* [-](merge-tables/union.md)
 
 ## Sub-query
 
