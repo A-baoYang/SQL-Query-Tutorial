@@ -22,9 +22,10 @@
 * [Conditions: CASE](functions/conditions-case.md)
 * [Arithmetic in SQL query](functions/arithmetic-in-sql-query.md)
 
-## Sorting
+## Sorting & Ranking
 
-* [ORDER BY](sorting/order-by.md)
+* [ORDER BY](sorting-and-ranking/order-by.md)
+* [Ranking methods](sorting-and-ranking/ranking.md)
 
 ## Merge Tables
 
@@ -33,12 +34,13 @@
 * [RIGHT JOIN](merge-tables/right-join.md)
 * [FULL JOIN](merge-tables/full-join.md)
 * [UNION / UNION ALL](merge-tables/union-union-all.md)
-* [UNION](merge-tables/union.md)
 * [INTERSECT](merge-tables/intersect.md)
 * [EXCEPT](merge-tables/except.md)
+* [-](merge-tables/union.md)
 
 ## Sub-query
 
 * [WHERE 中的子查詢](sub-query/where-zhong-de-zi-cha-xun.md)
 * [FROM 中的子查詢](sub-query/from-zhong-de-zi-cha-xun.md)
+* [SELECT 中的子查詢](sub-query/select-zhong-de-zi-cha-xun.md)
 

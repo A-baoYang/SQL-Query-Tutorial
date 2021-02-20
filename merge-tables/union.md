@@ -2,7 +2,7 @@
 description: 用途：連接 2 段 SQL query ，根據相同欄位列出 2 張資料表紀錄
 ---
 
-# UNION
+# -
 
 語法示範：
 

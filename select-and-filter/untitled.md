@@ -31,7 +31,7 @@ SELECT * FROM GAME_LOG
 WHERE USER_ID NOT LIKE '_w%';
 ```
 
-![](../.gitbook/assets/image%20%2837%29.png)
+![](../.gitbook/assets/image%20%2838%29.png)
 
 \(3\)　選取符合項目之列：list
 
@@ -40,7 +40,7 @@ SELECT * FROM GAME_LOG
 WHERE ID IN (1, 3, 6, 8);
 ```
 
-![](../.gitbook/assets/image%20%2839%29.png)
+![](../.gitbook/assets/image%20%2840%29.png)
 
 
 
@@ -51,7 +51,7 @@ SELECT * FROM GAME_LOG
 WHERE USER_ID <> 'iwoehfieowe1232';
 ```
 
-![](../.gitbook/assets/image%20%2836%29.png)
+![](../.gitbook/assets/image%20%2837%29.png)
 
 
 

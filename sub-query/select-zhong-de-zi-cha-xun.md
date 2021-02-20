@@ -1,8 +1,8 @@
 ---
-description: 用途：透過另一段 SQL query 產生資料表，置於 `FROM` 之後、`WHERE` 之前，目的為透過 2 資料表運算產生新欄位
+description: 用途：透過另一段 SQL query 產生資料表，置於 `SELECT` 之後、`FROM` 之前，目的為
 ---
 
-# FROM 中的子查詢
+# SELECT 中的子查詢
 
 語法示範：
 
@@ -29,6 +29,4 @@ FROM
 ) G
 WHERE PI.USER_ID = G.USER_ID
 ```
-
-![](../.gitbook/assets/image%20%2833%29.png)
 
