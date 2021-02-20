@@ -25,7 +25,7 @@
 ## Sorting & Ranking
 
 * [ORDER BY](sorting-and-ranking/order-by.md)
-* [Ranking:](sorting-and-ranking/ranking.md)
+* [Ranking methods](sorting-and-ranking/ranking.md)
 
 ## Merge Tables
 
