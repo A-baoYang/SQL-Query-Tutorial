@@ -2,7 +2,7 @@
 description: 用途：透過另一段 SQL query 進行 `WHERE` 指令篩選
 ---
 
-# WHERE 中的子查詢
+# Subquery inside WHERE
 
 語法示範：
 

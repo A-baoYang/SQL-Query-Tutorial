@@ -2,7 +2,7 @@
 description: 用途：透過另一段 SQL query 產生資料表，置於 `FROM` 之後、`WHERE` 之前，目的為透過 2 資料表運算產生新欄位
 ---
 
-# FROM 中的子查詢
+# Subquery inside FROM
 
 語法示範：
 

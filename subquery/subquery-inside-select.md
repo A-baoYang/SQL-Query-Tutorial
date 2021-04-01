@@ -2,7 +2,7 @@
 description: 用途：透過另一段 SQL query 產生資料表，置於 `SELECT` 之後、`FROM` 之前，目的為
 ---
 
-# SELECT 中的子查詢
+# Subquery inside SELECT
 
 語法示範：
 

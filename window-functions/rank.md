@@ -2,7 +2,7 @@
 description: 用途：對資料列進行排序
 ---
 
-# Ranking methods
+# Rank
 
 語法示範：
 

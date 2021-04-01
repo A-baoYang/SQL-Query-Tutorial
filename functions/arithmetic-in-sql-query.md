@@ -2,7 +2,7 @@
 description: 比較數學運算結果
 ---
 
-# Arithmetic in SQL query
+# Arithmetic in SQL
 
 語法示範：
 
