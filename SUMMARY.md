@@ -2,11 +2,11 @@
 
 * [大綱 Context](README.md)
 
-## INTRO 前言 <a id="intro"></a>
+## 前言  INTRO <a id="intro"></a>
 
 * [使用資料表 Dataset for demo](intro/dataset-for-demo.md)
 
-## select & filter
+## 查詢＆過濾  select & filter <a id="select-and-filter"></a>
 
 * [SELECT](select-and-filter/select.md)
 * [DISTINCT](select-and-filter/distinct.md)
@@ -15,21 +15,21 @@
 * [BETWEEN \_ AND \_](select-and-filter/between-_-and-_.md)
 * [ORDER BY](select-and-filter/order-by.md)
 
-## Functions
+## 函式  Functions <a id="functions"></a>
 
 * [Aggregate: GROUP BY](functions/aggregate-group-by.md)
 * [GROUP BY with HAVING](functions/untitled-1.md)
 * [Conditions: CASE](functions/conditions-case.md)
 * [Arithmetic in SQL](functions/arithmetic-in-sql-query.md)
 
-## Window Functions
+## 窗函數  Window Functions <a id="window-functions"></a>
 
 * [OVER](window-functions/over.md)
 * [OVER with PARTITION](window-functions/over-with-partition.md)
 * [Rank](window-functions/rank.md)
 * [ROW BETWEEN](window-functions/row-between.md)
 
-## 2+ tables
+## 跨2張以上資料表處理  2+ tables <a id="2+-tables"></a>
 
 * [INNER JOIN](2+-tables/inner-join.md)
 * [LEFT JOIN](2+-tables/left-join.md)
@@ -40,7 +40,7 @@
 * [EXCEPT](2+-tables/except.md)
 * [-](2+-tables/union.md)
 
-## Subquery
+## 子查詢  Subquery <a id="subquery"></a>
 
 * [Subquery inside WHERE](subquery/subquery-inside-where.md)
 * [Subquery inside FROM](subquery/subquery-inside-from.md)

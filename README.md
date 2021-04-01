@@ -4,26 +4,26 @@ description: SQL 備忘筆記  SQL Notes
 
 # 大綱 Context
 
-* **介紹 Intro**
+* **前言  Intro**
   * 使用資料表 Dataset for demo
-* **SELECT & FILTER 查詢＆過濾**
+* **查詢＆過濾  SELECT & FILTER**
   * SELECT
   * DISTINCT
   * WHERE
   * AND / OR
   * BETWEEN ＿ AND ＿
   * ORDER BY
-* **FUNCTIONS 函式**
+* **函式  FUNCTIONS**
   * Aggregation: GROUP BY
   * GROUP BY ＿ HAVING ＿
   * Conditions: CASE
   * Arithmetic in SQL
-* **WINDOW FUNCTIONS 窗函數**
+* **窗函數  WINDOW FUNCTIONS**
   * OVER\(\)
   * OVER\(\) with PARTITION
   * RANK
   * Sliding window: ROW BETWEEN
-* **2+ TABLES  跨2張以上資料表處理**
+* **跨2張以上資料表處理  2+ TABLES**
   * INNER JOIN
   * LEFT JOIN
   * RIGHT JOIN
@@ -31,7 +31,7 @@ description: SQL 備忘筆記  SQL Notes
   * UNION / UNION ALL
   * INTERSECT
   * EXCEPT
-* **Subquery 子查詢**
+* **子查詢  Subquery**
   * Subquery inside WHERE
   * Subquery inside FROM
   * Subquery inside SELECT
