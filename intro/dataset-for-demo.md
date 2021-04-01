@@ -2,7 +2,7 @@
 description: 各章節所使用之範例資料表名稱及前五列內容；資料皆為虛構，僅用於本教學。
 ---
 
-# Dataset for demo
+# 使用資料表 Dataset for demo
 
 > 範例資料表 `GAME_LOG`
 

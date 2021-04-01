@@ -1,11 +1,10 @@
 # Table of contents
 
-* [Context](README.md)
+* [大綱 Context](README.md)
 
 ## INTRO
 
-* [Motivation](intro/motivation.md)
-* [Dataset for demo](intro/dataset-for-demo.md)
+* [使用資料表 Dataset for demo](intro/dataset-for-demo.md)
 
 ## select & filter
 
@@ -14,18 +13,22 @@
 * [WHERE](select-and-filter/untitled.md)
 * [AND / OR](select-and-filter/and-or.md)
 * [BETWEEN \_ AND \_](select-and-filter/between-_-and-_.md)
-* [GROUP BY with HAVING](select-and-filter/untitled-1.md)
+* [ORDER BY](select-and-filter/order-by.md)
 
 ## Functions
 
 * [Aggregate: GROUP BY](functions/aggregate-group-by.md)
+* [GROUP BY with HAVING](functions/untitled-1.md)
 * [Conditions: CASE](functions/conditions-case.md)
 * [Arithmetic in SQL query](functions/arithmetic-in-sql-query.md)
 
 ## Sorting & Ranking
 
-* [ORDER BY](sorting-and-ranking/order-by.md)
+* [OVER\(\)](sorting-and-ranking/over.md)
+* [OVER\(\) with PARTITION](sorting-and-ranking/over-with-partition.md)
 * [Ranking methods](sorting-and-ranking/ranking.md)
+* [Sliding Window](sorting-and-ranking/sliding-window.md)
+* [ROW BETWEEN](sorting-and-ranking/row-between.md)
 
 ## Merge Tables
 
@@ -43,4 +46,7 @@
 * [WHERE 中的子查詢](sub-query/where-zhong-de-zi-cha-xun.md)
 * [FROM 中的子查詢](sub-query/from-zhong-de-zi-cha-xun.md)
 * [SELECT 中的子查詢](sub-query/select-zhong-de-zi-cha-xun.md)
+* [Correlated Subquery](sub-query/correlated-subquery.md)
+* [Multiple/Nested Subquery](sub-query/multiple-nested-subquery.md)
+* [Common Table Expressions \(CTEs\)](sub-query/common-table-expressions-ctes.md)
 
