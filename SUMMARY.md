@@ -2,7 +2,7 @@
 
 * [大綱 Context](README.md)
 
-## INTRO
+## INTRO 前言 <a id="intro"></a>
 
 * [使用資料表 Dataset for demo](intro/dataset-for-demo.md)
 
